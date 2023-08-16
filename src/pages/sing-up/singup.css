@@ -1,0 +1,94 @@
+.Login_Container {
+    background-color: #eef2fe;
+}
+
+.Auth_container {
+    align-items: center;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+}
+
+.auth-form {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px -4px grey;
+    margin: auto;
+    padding: 20px;
+    width: 30%;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.title h2 {
+    font-size: 35px;
+    font-weight: 600px;
+    text-align: center;
+}
+
+.inputGroup {
+    margin-bottom: 10px;
+}
+
+.inputGroup input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #b8b4b4;
+    font-size: 14px;
+    outline: none;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.inputGroup button {
+    background: #9b1fe9;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px !important;
+    outline: none;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.footer {
+    margin-top: 20px !important;
+    text-align: center;
+}
+
+.footer p {
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.socialmediaicon {
+    text-align: center;
+    margin-left: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.socialmediaicon-item {
+    margin-left: 10px;
+}
+
+.password-input {
+    display: flex;
+    align-items: center;
+}
+
+.password-toggle {
+    cursor: pointer;
+    margin-right: 10px;
+}

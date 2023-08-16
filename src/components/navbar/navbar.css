@@ -1,0 +1,249 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-logo h2 {
+    color: #9b1fe9;
+    font-family: Varela Round, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    }
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-button {
+    margin-right: 10px;
+    background-color: transparent;
+    border: 1px solid #dddd;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+
+}
+.wallet{
+    color: #9b1fe9;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 9px 20px;
+    text-transform: capitalize;
+    
+}
+.teston{
+    border: 1px solid #eee;
+    font-family: Varela Round, sans-serif;
+    padding: 9px 20px;
+}
+.testnet{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.testnet-icon{
+    margin-left: 10px;
+}
+.wallet-icon{
+    margin-right: 10px;
+    color: #9b1fe9;
+}
+/* #allet-btn{
+    border: 1px solid #9b1fe9;
+    color: #9b1fe9;
+    background-color: #f8f9fa;
+} */
+.dropdown-button {
+    display: flex;
+    align-items: center;
+    
+}
+
+.dropdown-menu {
+    position: absolute;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    padding: 5px;
+    color: #000;
+    cursor: pointer;
+}
+
+.navbar-user{
+    border: 1px solid black;
+    border-radius: 55%;
+    padding: auto;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(245, 237, 237);
+    color: rgb(46, 46, 46);
+    cursor: pointer;
+}
+.navbar-user i{
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(100, 129, 155);
+}
+
+.select {
+   display: flex;
+   /* background-color:#eee ; */
+}
+
+.select option{
+    margin: 20px;
+    padding: 20px;
+}
+.dropdown-button {
+    appearance: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color:#6d7380;
+    padding: 8px 12px;
+    border-radius: 4px;
+    /* border: 1px solid #ccc; */
+    font-size: 16px;
+    width: 180px;
+}
+
+.teston {
+    display: flex;
+    align-items: center;
+}
+
+.testnet {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.testnet-icon {
+    margin-left: 8px;
+}
+
+.option-icon {
+    margin-right: 8px;
+    padding-top: 10px;
+}
+/* Style the select dropdown arrow */
+.dropdown-button select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+
+/* Style the options */
+.dropdown-button select option {
+    background: white;
+    color: black;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+  
+    border: 1px solid #ccc;
+    padding: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    display: none;
+    /* Hide the dropdown menu by default */
+}
+
+.navbar-user:hover .dropdown-menu {
+    display: block;
+    /* Show the dropdown menu on user icon hover */
+}
+
+/* //boostrap overwrite */
+.dropdown-menu {
+    overflow: hidden;
+   right: 590px;
+}
+.dropdown{
+    margin-right: 46px;
+  
+}
+
+.btn-light{
+    margin-right: 20px;
+    border: 1px solid #9b1fe9;
+ color: #9b1fe9;
+background-color: #f8f9fa;
+}
+.wallet1{
+    text-align: center;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.wallet-contain {
+ height: 200px;
+ width: 200px;
+ display: flex;
+ text-align: center;
+ background-color: #f5f7fd;
+ flex-direction: column;
+ cursor: pointer;
+}
+.wallet-contain img {
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 100px;
+    width: 100px;
+}
+.wallet-contain h3{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.option-image {
+    width: 20px;
+    /* Adjust the width as needed */
+    height: 20px;
+    /* Adjust the height as needed */
+    margin-right: 10px;
+    /* Add spacing between image and text */
+}
+
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.option-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

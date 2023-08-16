@@ -1,0 +1,25 @@
+/* form.css */
+
+/* Add border to the table */
+.table {
+    border-collapse: collapse;
+    padding-left: 0;
+}
+
+/* Center-align text in table header and body cells */
+.table th,
+.table td {
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid #ddd;
+    /* Add this line to apply borders to cells */
+}
+
+/* Style the first column differently if desired */
+.table td:first-child,
+.table th:first-child {
+    
+    padding-left: 40px;
+    padding-right: 40px;
+}

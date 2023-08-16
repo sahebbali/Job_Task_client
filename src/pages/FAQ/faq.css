@@ -1,0 +1,19 @@
+
+.head-data{
+    height: fit-content;
+    width: full;
+
+}
+.title{
+    color: #9b1fe9;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.card-header a{
+    color: #000;
+    font-size: 17px;
+}
+.card-header a:hover {
+    color: #d0d6d1;
+}

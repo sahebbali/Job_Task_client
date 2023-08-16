@@ -1,0 +1,152 @@
+.form {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 25px 20px;
+  
+}
+.warning {
+    align-items: center;
+    background: #eef2fe;
+    border-radius: 1px;
+    display: flex;
+    padding: 10px;
+}
+.alert-icon{
+    margin-right: 10px;
+    color: #9b1fe9;
+}
+
+.info_form {
+    margin-top: 15px !important;
+    width: 50%;
+}
+
+.req-type label {
+    color: #9b1fe9;
+    font-size: 13px;
+    font-weight: 600;
+    width: 100%;
+}
+.input_Wall {
+    display: inline-flex;
+    margin-right: 10px !important;
+    width: 100%;
+}
+ .input_Wall input {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    margin-top: 5px !important;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+
+
+#Request_Type {
+    margin-top: 10px !important;
+}
+.wallet_address,
+.req-type label {
+    color: #9b1fe9;
+    font-size: 13px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.inputFields {
+    display: flex;
+}
+ .left_Input {
+    display: inline-flex;
+    margin-right: 15px !important;
+    width: 100%;
+}
+.left_Input input {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    margin-top: 5px !important;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+ .rightInput {
+    display: inline-flex;
+    width: 100%;
+}
+.rightInput input {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    margin-top: 5px !important;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+/* //capture */
+.recapture{
+    padding-top: 10px;
+    margin-top: 15px ;
+}
+
+.req-button{
+    margin-top: 15px !important;
+}
+.req-button button {
+    background: #9b1fe9;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+.req_history {
+    margin-top: 30px !important;
+}
+.req_history h2 {
+    font-size: 15px;
+    margin-bottom: 20px !important;
+}
+.taps{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.active_tabs {
+    background: #00f !important;
+    color: #fff;
+}
+ .tabs span {
+    background: #f5f7fd;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-right: 10px;
+    padding: 10px 15px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* history text */
+.history_text {
+    margin-top: 25px !important;
+}
+.history {
+    overflow-x: auto;
+}
+
+.history table {
+    border-collapse: collapse;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.history{
+    padding-top: 15px;
+   
+    margin-left: px;
+}
